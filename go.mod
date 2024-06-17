@@ -1,4 +1,4 @@
-module github.com/seborama/pcloud-sdk
+module github.com/shuslumi/pcloud-sdk
 
 go 1.21
 
