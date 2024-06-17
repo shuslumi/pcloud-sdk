@@ -31,7 +31,7 @@ type Client struct {
 func NewClient(c *http.Client) *Client {
 	return &Client{
 		httpClient: c,
-		apiURL:     "eapi.pcloud.com", // TODO: have a retry strategy that sets the URL when logon is successful with one of the datacentres (US or EU)
+		apiURL:     "api.pcloud.com", // TODO: have a retry strategy that sets the URL when logon is successful with one of the datacentres (US or EU)
 	}
 }
 
